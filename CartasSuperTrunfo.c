@@ -5,6 +5,36 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
+    float temperatura, umidade;
+    unsigned int estoque, estoqueMinimo = 1000;
+
+    printf("Entre com a temperatura: \n");
+    scanf("%f", &temperatura);
+
+    printf("Entre com a umidade: \n");
+    scanf("%f", &umidade);
+
+    printf("Entre com estoque: \n");
+    scanf("%u", &estoque);
+
+    if(temperatura > 30); {
+      printf("Temperatura está alta \n"); 
+    } else { 
+      printf("Temperatura está dentro dos parâmetros \n");
+      }
+
+    if(umidade > 50); {
+      printf("umidade elevada. \n"); 
+    } else {
+      printf("temperatura dentro dos parâmetros. \n"); }
+
+    if(estoque < estoqueMinimo); {
+      printf("estoque abaixo do mínimo. \n");
+    } else { 
+      printf("estoque normal. \n");
+    }
+  
+   
     // Declaracao das variavies
 
     char produtoA[30] = "ProdutoA";
